@@ -3,7 +3,7 @@
 // Definitions by: Bob Matcuk <https://github.com/bmatcuk>
 // TypeScript Version: 2.8
 
-import ElectronStore = require("electron-store");
+import ElectronStore from 'electron-store';
 
 type GetConstructorArgument<C> = C extends { new(arg: infer A): any } ? A : never;
 
